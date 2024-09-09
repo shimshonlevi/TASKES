@@ -3,12 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>To-Do List</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="myDiv">
-        <input type="text" id="myinput">
+    <div id="container">
+        <h2>My To-Do List</h2>
+        <input type="text" id="myInput" placeholder="Enter your task">
+        <button onclick="newElement()" class="addBtn">Add</button>
+
+        <ul id="myList"></ul>
+        
         <script src="script.js"></script>
     </div>
 </body>
